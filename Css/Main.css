@@ -1,0 +1,173 @@
+
+.Background img {
+    height: 600px;
+    width: 100%;
+}
+
+.Container {
+    border: 1px solid black;
+}
+
+.Nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.Nav li { 
+   float: left;
+    border-right:1px solid black;
+    padding-left: 3.5%;
+    padding-right: 3.2%;
+}
+
+.Nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+   /* padding: 1% 1% 1% 1%; */
+}
+
+.Nav {
+    border: solid 1px black;
+    background-color: #4d4d4d ;
+}
+
+.Nav li:hover {
+    background-color: #404040  ;
+}
+
+#text-box1 {
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 150px;
+    position: absolute;
+    top: 70%;
+    left: 5%; 
+    text-align: center;
+}
+
+#text-box2 {
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 150px;
+    position: absolute;
+    top: 70%;
+    left: 20%; 
+    text-align: center;
+}
+
+#logo img {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 5%;
+    height: 15%;
+    position: absolute;
+    top: 20%;
+    left: 5%; 
+    text-align: center;
+}
+
+.Background p {
+    color: white;
+}
+
+.Background h1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 5%; 
+}
+
+.Background h2 {
+    color: white;
+    position: absolute;
+    top: 57%;
+    left: 5%; 
+}
+/*
+.footer {
+    border-top: solid 2px burlywood;
+    background-color: antiquewhite;
+}
+#left-foot {
+    padding-left: 20%; 
+    float: left;
+    width: 40%;
+    margin: auto;
+}
+
+#right-foot {
+    float: right;
+    width: 40%;
+    margin: auto;
+}
+
+
+
+.footer a {
+    text-decoration: none;  
+}
+
+.footer a:hover {
+    color: brown;
+}
+
+.footer li {
+    list-style: none;  
+}
+
+@media (max-width: 240px) {
+    #vendors img {
+     width: 40%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+    #map {
+    height: 70%;
+    width: 70%;
+    }
+    
+}
+
+@media (max-width: 320px) {
+#vendors img {
+     width: 40%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+        #map {
+    height: 70%;
+    width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+#vendors img {
+     width: 40%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+        #map {
+    height: 70%;
+    width: 70%;
+    }
+    
+}
+*/
+
+#small {
+    height: auto;
+    width: auto;
+    max-height: 200px;
+}
+
+
