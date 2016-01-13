@@ -1,3 +1,23 @@
+/* JS disabled styles */
+.no-js nav li:hover ul { display:block; }
+ 
+/* Basic nav styles */
+nav { display:block; margin:0 ; border:1px solid black; position:relative; background-color:#4d4d4d; font:16px Tahoma, Sans-serif; }
+nav ul { padding:0; margin:0; }
+nav li { position:relative; float:left; list-style-type:none; }
+nav ul:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+nav li a { display:block; padding:14px 16px; border-left:1px solid black; border-right:1px black; color:#eee; text-decoration:none; }
+nav li a:focus { outline:none; text-decoration:none; }
+nav li:first-child a { border-left:none; }
+nav li.last a { border-right:none; }
+nav a span { display:block; float:right; margin-left:5px; }
+nav ul ul { display:none; width:100%; position:absolute; left:0; background:#6a6a6a; }
+nav ul ul li { float:none; }
+nav ul ul a { padding:5px 10px; border-top: 1px solid black; border-left:none; border-right:none; font-size:14px; }
+nav ul ul a:hover { background-color:#555; }
+
+/*CSS3*/
+.csstransforms ul a span { -moz-transform:rotate(-180deg);-webkit-transform:rotate(-180deg); }
 
 .Background img {
     height: 600px;
